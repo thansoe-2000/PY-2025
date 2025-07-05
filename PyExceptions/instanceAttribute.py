@@ -10,6 +10,7 @@ p2 = Person("Aung Aung", 22)
 print(p1.name)
 print(p2.name)
 print(type(p1))
+print(hasattr(p1, 'age'))
 
 # p1 and p2 are objects,
 # they are created as object using Person() class
